@@ -1,0 +1,709 @@
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;}
+html {
+scroll-behavior: smooth; }
+body {
+    color: #080707;
+    font-size: 14px;
+    font-family: Calibri;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;  }
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+h1, h2, h3, h4,h5,h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-family: Calibri;
+    font-weight: normal;
+    line-height: normal;
+    color: #111111;
+    margin: 0 }
+h1 {  font-size: 24px }
+h2 {  font-size: 22px }
+h3 {  font-size: 18px }
+h4 {  font-size: 16px }
+h5 {  font-size: 14px }
+h6 {  font-size: 13px}
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    font-family: Calibri;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  }
+h1 a,h2 a, h3 a, h4 a, h5 a,
+h6 a {
+    color: #212121;
+    font-family: Calibri;
+    text-decoration: none!important;
+    opacity: 1 }
+button:focus {
+    outline: none; }
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri;
+    list-style: none; }
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-family: Calibri;
+    font-size: 30px;
+    line-height: 24px; }
+a {
+    color: #222222;
+    text-decoration: none;
+    font-family: Calibri;
+    outline: none !important; }
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+/*التحكم بمعرص الصور*/
+img {
+    max-width:95%;
+    height: auto;
+    float:left;}
+ :focus {
+    outline: 0;}
+.paddind_bottom_0 {
+    padding-bottom: 0 !important; }
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    font-family: Calibri;
+    padding: 12px 40px;
+    font-size: 16px; }
+.lead {
+    font-size: 40px;
+    line-height: 30px;
+    color: #0a0909;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0; }
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);  }
+.navbar-form input {
+    border: none !important;
+    font-family: Calibri; }
+
+.badge {
+    font-weight: 500;}
+blockquote {
+    margin: 20px 0 20px;  
+    font-family: Calibri;
+    padding: 30px;}
+button {
+    border: 0;
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;}
+    .full {
+        float:right;
+        width: 100%;}
+    .layout_padding {
+        padding-top: 90px;
+        padding-bottom: 0px;}
+        .padding_0 {
+            padding: 0px;}
+/*تنسيقات اللوقو*/
+.logo {
+    width:6%;
+    float: left;
+}
+/*تنسيقات صورة الخلفية*/
+
+.header_section {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    background-image: url(../images/ccc.avif);
+    height: auto;
+    background-size:100%;
+    background-repeat: no-repeat; }
+.bg-dark {
+    background-color: transparent !important;
+    font-family: Calibri; }
+.navbar-dark .navbar-toggler {
+    color: #000;
+    font-family: Calibri;
+    border-color: transparent !important; }
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images/toggle-icon1.png);
+    float:right;
+    font-family: Calibri;
+    width: 50px; }
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-size: 18px;
+    font-family: Calibri;
+    padding: 5px 0px 0px 0px;}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #000;}
+
+    /* تنسيقات الكلام والصورة */
+    .banner_section {
+        width: 100%;
+        float: right;
+        font-family: Calibri;
+        padding-bottom: 100px;}
+.banner_section:after {
+    content: '';
+    position: absolute;
+    width: 10000px;
+    border-bottom: 2px solid #121111;
+    justify-content: center;
+    font-family: Calibri;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    margin-top: 100px;}
+.banner_taital_1 {
+    width: 100%;
+    float: right;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 70px;
+    color: #000;
+    padding-top: 50px;}
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    font-size: 46px;
+    color: #000;
+    font-weight: bold; }
+.banner_text {
+    width: 100%;
+    float: right;
+    font-size: 25px;
+    font-family: Calibri;
+    text-align: center;
+    color: #0c0c0b;
+    font-weight: bold;
+    margin-left: 0px;}
+.taital_main {
+    padding-left: 50px;}
+    /*تنسيقات الاسهم الموجودة في المعرض*/
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    font-family: Calibri;
+    background-color: transparent !important;
+    border: 3px solid #e7880a;
+    border-radius: 100px;}
+.carousel-indicators .active {
+    border: 3px solid #0e0b0a;}
+.carousel-indicators {
+    bottom: -60px;}
+    /*تنسيقات الخدمات*/
+.services_section {
+    width: 100%;
+    float: right;}
+.services_taital {
+    width: 100%;
+    float: right;
+    font-size: 40px;
+    color: #070706;
+    text-align: center;
+    font-family: Calibri;
+    text-transform: uppercase;}
+.services_taital:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    border-bottom: 10px solid #f1860b;
+    justify-content: center;
+    font-family: Calibri;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    display: block;
+    border-radius: 20px;}
+.services_section_2 {
+    width: 100%;
+    font-family: Calibri;
+    float: right;
+    margin-top: 50px;}
+    /*تنسيقات صفحة الخدمات*/
+.news_main {
+    width: 100%;
+    float: right;
+    font-family: Calibri;
+    padding-top: 40px;
+    background-color: #f1860bd2;
+    border-radius: 10px;
+    padding: 15px 10px 0px 10px;
+    box-shadow: 0px 0px 22px 16px #f0f0f0;
+    margin-top: 30px;}
+.news_section_left {
+    width:25%;
+    font-family: Calibri;
+    font-size: 28px;
+    float: right;}
+.news_section_right {
+    width: 75%;
+    font-family: Calibri;
+    float: right;}
+    /*تنسيقات الخط الاساسي*/
+.great_text {
+    width: 100%;
+    float: right;
+    text-align:right;
+    font-size: 40px;
+    font-family: Calibri;
+    color: #070706;
+    text-transform: uppercase;
+    font-weight: bold;}
+.dolor_text {
+    width: 100%;
+    float: right;
+    font-size:40px;
+    color: #fafaf7;
+    margin-left: 0px;
+    line-height: 30px;
+    font-family: Calibri;
+text-align: center;}
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #282828;
+    font-family: Calibri;}
+/*تنسيقات اللعبه*/
+.school_section {
+    width: 100%;
+    height: 100%;
+    float: left;
+    font-family: Calibri;
+    background-image: url(../images/qq.avif);
+    background-size:90%;  
+    color: whitesmoke;
+    background-position: center;
+    font-family: Calibri;
+    background-repeat: no-repeat;}
+.school_text {
+    width: 100%;
+    float: right;
+    font-size: 16px;
+    color: #282828;
+    font-family: Calibri;
+    margin-left: 0px;
+    text-align: center;}
+    .image_9 {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;}
+        .image_9 img{
+            width: 100%;}
+            .pure_text {
+                width: 100%;
+                font-size: 24px;
+                color: #282828;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-family: Calibri;
+                text-align: center;
+                padding-top: 20px;}
+            .many_text {
+                width: 72%;
+                margin: 0 auto;
+                font-size: 22px;
+                text-transform: uppercase;
+                font-family: Calibri;
+                color: #282828;
+                text-align: center; }
+                /*زرالالعاب*/
+                .readmore_bt_2 {
+                    width: 170px;
+                    margin: 0 auto;
+                    font-family: Calibri;
+                    text-align: center;}
+                    .readmore_bt_2 a {
+                        width: 100%;
+                        float: right;
+                        font-size: 18px;
+                        color: #ffffff;
+                        background-color:#f1860bd2;
+                        border-radius: 5px;
+                        padding: 10px;
+                        text-align: center;
+                        font-family: Calibri;
+                        margin-top: 30px; }
+                        .readmore_bt_2 a:hover {
+                            color: #ffffff;
+                            font-family: Calibri;
+                            background-color: #060505; }
+                        .col-sm-4.images_main {
+                            display: flex;
+                            font-family: Calibri;
+                            flex-direction: column;
+                            align-items: center; }
+    /*تنسيفات عروض الاشتراك*/
+.distracted_text {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #282828;
+    font-weight: bold;
+    padding: 20px 10px 0px 10px; }
+.ipsum_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-family: Calibri;
+    color: #282828;
+    margin: 0px;
+    padding: 10px;}
+.image_12 {
+    width: 100%;
+    float: right;
+    min-height: 264px; }
+    /*تنسيقات الاتصال وعنوان الايميل اللي مع شريطsubscribe*/
+.fact_text {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    font-family: Calibri;
+    color: #282828;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 11px;}
+.call_section {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    background-color: #fb6818;
+    height: auto;
+    padding: 20px 0px;
+    filter: drop-shadow(2px 12px 7px #0f0808);
+    margin-top: 90px;}
+.call_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    font-family: Calibri;
+    color: #0b0b0b;
+    padding-top: 20px;}
+.call_text a {
+    color: #ffffff;}
+.input_bt {
+    width: 100%;
+    float: right;}
+/*تنسيقات الايميل*/
+.mail_bt {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    font-family: Calibri;
+    color: #040404;
+    background-color: #fff;
+    padding: 5px 200px 5px 30px;
+    border-radius: 30px;
+    border: 0px;
+    height: 60px;
+    position: relative;}
+/*تنسيقات زر الاشتراك*/
+/*تنسيقات المعلومات*/
+.information_text {
+    width: 100%;
+    float: right;
+    font-size: 24px;
+    margin-left: 0px;
+    color: #ffffff;
+    font-family: Calibri;
+    font-weight: 500;
+    padding-left: 20px;}
+.many_text_1 {
+    width: 60%;
+    float: right;
+    font-family:calc();
+    font-size: 16px;
+    color: #d4d6da;
+    line-height: 30px; }
+/**/
+/*التحكم في الوان المربعات*/
+
+/*التحكم في ايقونات الاسهم*/
+.carousel-control-next {
+    right: 0;
+    color: #09653e !important;}
+.carousel-control-next,
+.carousel-control-prev {
+    align-items: initial;}
+/*التحكم في ايقونات الاسهم*/
+.carousel-control-prev-icon {
+    background: transparent;}
+/* التحكم في الايقونات الاسهم*/
+.carousel-control-next-icon {
+    background: transparent;}
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: #09653e;
+    opacity: 10;}
+/* التحكم بمكان الاسهم اليسار في التعريف عن الحالة*/
+.carousel-control-prev {
+    left: -2px;
+    top: 190px;}
+/* التحكم بمكان الاسهم اليمين في التعريف عن الحالة*/
+.carousel-control-next {
+    right: -2px;
+    top: 190px;}
+/*تنسيقات الاسهم في حالة التعريف بالمرض*/
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 205px;
+    top: 82%;}
+/*تنسيقات الاسهم في حالة التعريف بالمرض*/
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fb6818;
+    opacity: 1;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 100%;}
+/*تنسيقات الاسهم في حالة التعريف بالمرض*/
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 130px;
+    top: 82%;
+    background-color: #fb6818;}
+.padding_top_10 {
+    padding-top: 5px;}
+
+.images_main:hover .image_9{
+    width: 100%;}
+/*تنسيقات التواصل*/
+.contact_section {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    padding-bottom: 90px; }
+.touch_taital {
+    width: 100%;
+    float: right;
+    font-size: 40px;
+    color: #f1860bd2;
+    font-weight: bold;
+    font-family: Calibri;
+    text-align: center;}
+    /*تنسيقات زر التواصل*/
+.contact_section_2 {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    margin-top: 30px; }
+    /*تنسيقات نص الايميل*/
+.email_text {
+    width: 100%;
+    float: left;
+    font-family: Calibri;
+    padding: 20px 20px 20px 20px; }
+/*تنسيقات زر الايميل*/
+.email-bt {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    font-family: Calibri;
+    color: #2a2a2c;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border: 1px solid #909090; }
+    /*تنسيقات زر الرساله*/
+.massage-bt {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #2a2a2c;
+    font-family: Calibri;
+    margin-bottom: 20px;
+    padding: 40px 15px 8px 15px;
+    border: 1px solid #909090;
+    height: 120px;}
+    /*تنسيقات زر الارسال*/
+.send_btn {
+    width: 170px;
+    font-family: Calibri;
+    float: left;}
+    /*تنسيقات زر الارسال*/
+.send_btn a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #fb6818;
+    padding: 10px;
+    border-radius: 30px;}
+         /*تنسيقات الشريط*/
+     .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px;
+        color: rgb(233, 225, 225);
+        background-color:#f1860bd2;
+       font-size: medium;}
+     .nav-links {
+        display: flex;
+        align-items: center;}
+    .nav-links li {
+        margin: 0 40px; }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+    a {
+        text-decoration: none;
+        color: white;}
+    ul { 
+        list-style: none;
+        text-align: right;}
+    .line {
+        width: 300px;
+        height: 4px;
+        background: #f1860bd2;
+        margin: 10px auto;
+        border-radius: 5px;
+        right: 0%;}   
+    .header-content {
+        width: 100%;
+        height: 100%;
+        font-family: Calibri;
+        height: auto;
+        background-image: url(../images/banner-7.jpeg);
+        background-size:95%;
+        background-repeat: no-repeat;   
+        color: whitesmoke;
+        text-align: center;}
+    .header-content h2 {
+        font-size: 4vmin;}
+        /*تنسيقات التواصل */
+        .footer_section {
+            width: 100%;
+            float: left;
+            font-family: Calibri;
+            background-color: #f1b170d2;
+            height: auto;
+            padding-bottom: 90px;}
+        .footer_text {
+            width: 100%;
+            font-family: Calibri;
+            float: right;}
+        .footer_logo {
+            width: 100%;
+            float:right;}
+        .jonson_text {
+            width: 86%;
+            float: right;
+            font-family: Calibri;
+            font-size: 15px;
+            margin-left: 0px;
+            color: #030303;}
+        /*تنسيقات التواصل*/
+        .social_icon {
+            width: 100%;
+            float: right;}
+        .social_icon ul {
+            margin: 0px;
+            padding: 0px;}
+        .social_icon li {
+            float: right;
+            padding-right: 10px;}
+            .social_icon li:hover {
+                float: right;
+                color: #000;
+                padding-right: 10px;}
+        /*تنسيقات المعلومات*/
+        .information_text {
+            width: 100%;
+            float: right;
+            font-size: 24px;
+            margin-left: 0px;
+            color: #ffffff;
+            font-family: Calibri;
+            font-weight: 500;
+            padding-left: 20px;}
+        .many_text_1 {
+            width: 60%;
+            float: right;
+            font-family: Calibri;
+            font-size: 16px;
+            color: #d4d6da;
+            line-height: 30px; }
+            /* تنسيق العلاج*/
+            .about_section {
+                width: 100%;
+                font-family: Calibri;
+                float:right;
+                text-align: right;}
+            .image_15{
+width: 600px;
+height: auto;
+float:left;}
+                .about_main {
+                    width: 100%;  
+                    height:100%;
+                     float:right;
+                     font-size:20px;
+                     font-family: Calibri;
+                     background-color: #f1860bd2;
+height: auto;
+padding: 88px 20px 95px 50px;}
+                        .about_taital {
+                            width:100%;
+                            font-family: Calibri;
+                            float:right;
+                            font-size: 20px;
+                            color: #ffffff;
+                            text-transform: uppercase;}         
+            .about_taital::after {
+                content: '';
+                position: absolute;
+                width: 100px;
+                background-color: #fff !important;
+                margin: 0 auto;
+                left: 0px;
+                font-family: Calibri;
+                right:-470px;
+                float:right;
+                text-align: center;
+                display: block;
+                border-radius:350px;
+                height: 10px;}
+            .about_text {
+                width: 80%;
+                float:right;
+                font-size: 20px;
+                font-family: Calibri;
+                color: #0b0b0b;
+                margin-left: 0px;
+                padding-top: 41px;}
